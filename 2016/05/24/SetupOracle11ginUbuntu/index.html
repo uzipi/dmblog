@@ -84,15 +84,31 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Uzipi's Blog">
-<meta property="og:url" content="http://uzipi.github.io/index.html">
+<meta name="description" content="ubuntu14.04 X64 安装oracle11g一、安装依赖环境1、更新apt-get执行update更新命令：
+$ sudo apt-get update
+$ sudo apt-get dist-upgrade
+2、安装jdk如果已经安装过的，可以跳过这一步。这里，我安装的是jdk7：
+$ sudo apt-get install openjdk-7-jre
+$ sudo apt-get">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SetupOracle11ginUbuntu">
+<meta property="og:url" content="http://uzipi.github.io/2016/05/24/SetupOracle11ginUbuntu/index.html">
 <meta property="og:site_name" content="Uzipi's Blog">
-<meta property="og:description">
+<meta property="og:description" content="ubuntu14.04 X64 安装oracle11g一、安装依赖环境1、更新apt-get执行update更新命令：
+$ sudo apt-get update
+$ sudo apt-get dist-upgrade
+2、安装jdk如果已经安装过的，可以跳过这一步。这里，我安装的是jdk7：
+$ sudo apt-get install openjdk-7-jre
+$ sudo apt-get">
+<meta property="og:updated_time" content="2016-05-23T16:52:42.258Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Uzipi's Blog">
-<meta name="twitter:description">
+<meta name="twitter:title" content="SetupOracle11ginUbuntu">
+<meta name="twitter:description" content="ubuntu14.04 X64 安装oracle11g一、安装依赖环境1、更新apt-get执行update更新命令：
+$ sudo apt-get update
+$ sudo apt-get dist-upgrade
+2、安装jdk如果已经安装过的，可以跳过这一步。这里，我安装的是jdk7：
+$ sudo apt-get install openjdk-7-jre
+$ sudo apt-get">
 
 
 
@@ -110,7 +126,7 @@
   };
 </script>
 
-  <title> Uzipi's Blog </title>
+  <title> SetupOracle11ginUbuntu | Uzipi's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -131,9 +147,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -210,9 +224,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -232,10 +246,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/dmblog/2016/05/24/SetupOracle11ginUbuntu/" itemprop="url">
-                  SetupOracle11ginUbuntu
-                </a>
+                SetupOracle11ginUbuntu
               
             
           </h1>
@@ -275,9 +286,7 @@
       
 
       
-        
-          
-            <h1 id="ubuntu14-04-X64-安装oracle11g"><a href="#ubuntu14-04-X64-安装oracle11g" class="headerlink" title="ubuntu14.04 X64 安装oracle11g"></a>ubuntu14.04 X64 安装oracle11g</h1><h2 id="一、安装依赖环境"><a href="#一、安装依赖环境" class="headerlink" title="一、安装依赖环境"></a>一、安装依赖环境</h2><h3 id="1、更新apt-get"><a href="#1、更新apt-get" class="headerlink" title="1、更新apt-get"></a>1、更新apt-get</h3><p>执行update更新命令：</p>
+        <h1 id="ubuntu14-04-X64-安装oracle11g"><a href="#ubuntu14-04-X64-安装oracle11g" class="headerlink" title="ubuntu14.04 X64 安装oracle11g"></a>ubuntu14.04 X64 安装oracle11g</h1><h2 id="一、安装依赖环境"><a href="#一、安装依赖环境" class="headerlink" title="一、安装依赖环境"></a>一、安装依赖环境</h2><h3 id="1、更新apt-get"><a href="#1、更新apt-get" class="headerlink" title="1、更新apt-get"></a>1、更新apt-get</h3><p>执行update更新命令：</p>
 <pre><code>$ sudo apt-get update
 $ sudo apt-get dist-upgrade
 </code></pre><h3 id="2、安装jdk"><a href="#2、安装jdk" class="headerlink" title="2、安装jdk"></a>2、安装jdk</h3><p>如果已经安装过的，可以跳过这一步。<br>这里，我安装的是jdk7：</p>
@@ -454,16 +463,19 @@ export PATH=$PATH:$ORACLE_HOME/bin/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ORACLE_HOME/lib
 export NLS_LANG=&quot;Simplified chinese_china.al32utf8&quot;
 </code></pre>
-          
+      
+    </div>
+
+    <div>
+      
         
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -471,214 +483,32 @@ export NLS_LANG=&quot;Simplified chinese_china.al32utf8&quot;
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/dmblog/2016/05/22/hello/" rel="next" title="hello">
+                <i class="fa fa-chevron-left"></i> hello
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/dmblog/2016/05/22/hello/" itemprop="url">
-                  hello
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-22T22:06:12+08:00" content="2016-05-22">
-              2016-05-22
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-      
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/dmblog/2016/05/22/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-22T21:38:44+08:00" content="2016-05-22">
-              2016-05-22
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
@@ -686,6 +516,10 @@ export NLS_LANG=&quot;Simplified chinese_china.al32utf8&quot;
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -705,8 +539,17 @@ export NLS_LANG=&quot;Simplified chinese_china.al32utf8&quot;
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/dmblog/images/avatar.gif"
@@ -742,6 +585,17 @@ export NLS_LANG=&quot;Simplified chinese_china.al32utf8&quot;
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#ubuntu14-04-X64-安装oracle11g"><span class="nav-number">1.</span> <span class="nav-text">ubuntu14.04 X64 安装oracle11g</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、安装依赖环境"><span class="nav-number">1.1.</span> <span class="nav-text">一、安装依赖环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、更新apt-get"><span class="nav-number">1.1.1.</span> <span class="nav-text">1、更新apt-get</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、安装jdk"><span class="nav-number">1.1.2.</span> <span class="nav-text">2、安装jdk</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、配置java环境变量"><span class="nav-number">1.1.3.</span> <span class="nav-text">3、配置java环境变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、安装依赖包（这一步很重要！）"><span class="nav-number">1.1.4.</span> <span class="nav-text">4、安装依赖包（这一步很重要！）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5、配置安装前的参数"><span class="nav-number">1.1.5.</span> <span class="nav-text">5、配置安装前的参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6、建立oracle用户组及安装目录"><span class="nav-number">1.1.6.</span> <span class="nav-text">6、建立oracle用户组及安装目录</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、安装oracle"><span class="nav-number">1.2.</span> <span class="nav-text">二、安装oracle</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1、下载oracle"><span class="nav-number">1.3.</span> <span class="nav-text">1、下载oracle</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2、解压缩oracle安装包"><span class="nav-number">1.4.</span> <span class="nav-text">2、解压缩oracle安装包</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3、安装过程出现的问题"><span class="nav-number">1.5.</span> <span class="nav-text">3、安装过程出现的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#因为我是安装在-home-oracle目录下，在安装读条的过程中，GUI警告提示了这个信息，yes忽略警告继续安装，当然在生产环境中，最好是建立在-opt-oracle目录下，避免对home目录的影响。"><span class="nav-number">1.6.</span> <span class="nav-text">因为我是安装在/home/oracle目录下，在安装读条的过程中，GUI警告提示了这个信息，yes忽略警告继续安装，当然在生产环境中，最好是建立在/opt/oracle目录下，避免对home目录的影响。</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -838,6 +692,10 @@ export NLS_LANG=&quot;Simplified chinese_china.al32utf8&quot;
   
 
   
+  <script type="text/javascript" src="/dmblog/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/dmblog/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
